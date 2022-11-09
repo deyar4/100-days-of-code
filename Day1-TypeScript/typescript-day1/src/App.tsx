@@ -20,10 +20,9 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-<span className='heading'>100 Days of Tasks</span>
+    <div className="App bg-gradient-to-r from-sky-400 to-blue-500 h-screen">
+<span className='flex justify-center text-5xl antialiased pt-6 text-white container mx-auto'>100 Days of Tasks</span>
 <InputField todo={todo} handleAdd={handleAdd} setTodo={setTodo}/>
-<span className="todoss">Todos:</span>
 <TodoList todos={todos} setTodos={setTodos}/>   
     </div>
   );

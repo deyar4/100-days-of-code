@@ -9,7 +9,7 @@ interface Props{
 
 const TodoList = ({todos,setTodos}: Props) => {
   return (
-    <div className='todos'>
+    <div className='grid grid-cols-4 gap-4 p-4'>
         {
             todos.map((todo) => (
                 <SingleTodo 
