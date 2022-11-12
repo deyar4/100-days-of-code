@@ -10,8 +10,19 @@ For the beginning of my journey i wanted to start with React/typescript
 - Learned about types, interfaces, classes, objects and typescript syntax
 
 ## Day 2✌️
-For the beginning of my journey i wanted to start with React/typescript
+
 - Used Tailwindcss to give style to the app and components.
 - updated the repo.
 - Reading Tailwindcss and react-icons documentations.
+
+## Day 3👌
+I didn't do much on Day 3
+- added functionality to Done button.
+
+## Day 4🍀
+
+- added functionality to Edit button.
+- added fuctionality to Delete button.
+- used useState & useEffect hooks.
+
 
