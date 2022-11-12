@@ -41,7 +41,7 @@ const singleTodo = ({todo, todos, setTodos}: Props) => {
 
 
   return (
-    <form className="todosSingle p-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+    <form className="todosSingle p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
     onSubmit={(e) => handleEdit(e, todo.id)}
     >
        {edit ? (
